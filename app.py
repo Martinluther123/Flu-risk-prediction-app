@@ -5,7 +5,7 @@ import joblib
 # ----------------------------
 # Load model and feature order
 # ----------------------------
-model = joblib.load("flu_risk_model.pkl")
+model = joblib.load("Influenza_risk_model.pkl")
 feature_order = joblib.load("feature_order.pkl")
 
 # ----------------------------
